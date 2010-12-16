@@ -82,6 +82,7 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    'missions',
     'djcelery',
     'django.contrib.auth',
     'django.contrib.contenttypes',

@@ -5,6 +5,7 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
+    ('', include('missions.urls')),
     # Example:
     # (r'^bam/', include('bam.foo.urls')),
 
